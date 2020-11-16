@@ -1,0 +1,39 @@
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 50;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3) ;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: teal !important;
+    /* background-image: url(districtbg.jpg); */
+     }
+.intro{
+    border: 1px solid white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: white;
+    
+    
+}
+h4{
+    margin-top: 20px;    
+    text-align: center;
+}
+h2{
+    margin-top: 20px;    
+    text-align: center;
+}
+.intro-img{
+    margin-top: 60px;
+}
+

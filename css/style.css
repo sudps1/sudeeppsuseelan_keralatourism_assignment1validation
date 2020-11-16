@@ -1,0 +1,27 @@
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 50;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3) ;
+}
+
+.nav-link{
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.carousel{
+    margin-top: -95px;
+}
+body{
+    background-color: black !important;
+}
+.foot{
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    line-height: 2px;
+    margin-top: 50px;
+    
+}

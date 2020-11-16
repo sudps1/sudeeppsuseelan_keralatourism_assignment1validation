@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="width=device-width, initial-scale" name="viewport"/>
+    <title>Kerala Tourisam - SignUp</title>
+    <link rel = "icon" href = "images/titlogo.PNG">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+  </head>
+  <body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo.png" width="150" height="60" alt="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" >Welcome to God's Own Country </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="districts.html">Districts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">LogIn</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="signup.html">SignUp</a>
+        </li>
+        
+      </ul>
+    </div>
+    </nav>
+    <!-- /nav bar -->
+
+    <!-- sign up form -->
+    <form class="login" action = "1tvm.html" onsubmit = "return validation()">
+      <div class="head">
+        <h3>Sign Up</h3>
+        <p>Please fill this form to create an account.</p>
+      </div>    
+      <div class="label">
+        <label>First Name</label>
+        <br>
+        <input type="text" size="31px" id="FirstName" placeholder="Enter your first name">
+        <br>
+        <label id="FirstName1"></label>
+      </div>
+      <div class="label">
+        <label>Last Name</label>
+        <br>
+        <input type="text" size="31px" id="LastName" placeholder="Enter your last name">
+        <br>
+        <label id="LastName1"></label>
+      </div>
+      <div class="label">
+        <label>E-Mail</label>
+        <br>
+        <input type="text" size="31px" id="Mail" placeholder="E-Mail">
+        <br>
+        <label id="Mail1"></label>
+      </div>
+      <div class="label">
+        <label>Mobile Number</label>
+        <br>
+        <input type="text" size="31px" id="Mobile" placeholder="Enter 10 digit mobile number ">
+        <br>
+        <label id="Mobile1"></label>
+      </div>
+        <div class="label">
+          <label>Password</label>
+          <span id="passreq">[ ! ]</span>
+           <div id="myModal" class="modal">
+          <div class="modal-content">
+                <span class="close">&times;</span>
+                <h5>Password Requirment</h5>
+                <ul>
+                  <li>Minimum 8 characters.</li>
+                  <li>Atleast one numeric value.</li>
+                  <li>Atleast one small letter.</li>
+                  <li>Atleast one capital letter.</li><br>
+                  <p>Atleast one special character. (Recommended)</p>
+                
+                </ul>
+              </div>
+
+        </div>
+        <br>
+        <input type="password" onkeyup="trigger()" size="31px" id="password" placeholder="Enter password">
+        <br>
+        <span class="showBtn">Show</span>
+        <label id="password1"></label>
+      </div> 
+      <div class="label">
+        <label>Confirm Password</label>
+        <br>
+        <input type="password" size="31px" id="confpassword" placeholder="Re-enter your password">
+        <br>
+        <label id="confpassword1"></label>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+        <div class="indicator" >
+        <span class="weak"></span>
+        <span class="medium"></span>
+        <span class="strong"></span>
+      </div>
+          
+          <div class="text"></div>  
+          <div class="botton">
+            <button>Submit</button>
+          </div>
+    </form>
+    <!-- /sign up form -->
+    <script src="signupform.js"></script>   
+  </body>
+</html>

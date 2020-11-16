@@ -1,0 +1,61 @@
+.navbar{
+    position: absolute;
+    width: 100%;
+    z-index: 50;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3) ;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(districtbg.jpg);
+     }
+.login{
+        border: 2px solid white;
+        border-radius: 25px;
+        margin-top: 50px;
+        margin-left: 35%;
+        margin-right: 30%;
+        margin-bottom: 10px;
+        color: black;   
+        background-color: rgba(255, 255, 255, 0.7);     
+        /* background-image: url(form2.jpg); */
+    
+
+    
+}
+.login:hover {
+    box-shadow: 0 0 2px 5px rgba(0, 140, 186, 0.5);
+  }
+.label{
+    margin-left: 22%;
+    margin-top: 10px;
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .95em;
+}
+.button{
+    margin-left: 42%;
+    margin-bottom: 5px;
+}
+.hyper{
+    color: black;
+}
+.bottomtxt{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: black;
+    
+
+}
+
+.head{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+}
